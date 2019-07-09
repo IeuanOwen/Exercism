@@ -1,0 +1,6 @@
+{
+  "grains_test.py::GrainsTest::test_square_0_raises_exception": true,
+  "grains_test.py::GrainsTest::test_square_gt_64_raises_exception": true,
+  "grains_test.py::GrainsTest::test_square_negative_raises_exception": true,
+  "grains_test.py::GrainsTest::test_total": true
+}
