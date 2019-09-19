@@ -17,6 +17,12 @@ class Character:
         self.constitution = self.ability()
         self.hitpoints = 10 + modifier(self.constitution)
 
+        # this is just so whoever is using this generator can see their generated character
+        self.results = ("Strength: {}\nDexterity: {}\nCharisma: {}\nWisdom: {}\nIntellignece: {}\nConstitution: "
+                        "{}\nHitpoints: {}").format(self.strength, self.dexterity, self.charisma, self.wisdom,
+                                                     self.intelligence, self.constitution, self.hitpoints)
+        print(self.results)
+
     def ability(self):
         rolls = [randrange(1,7) for i in range(4)]
         rolls.remove(min(rolls))
