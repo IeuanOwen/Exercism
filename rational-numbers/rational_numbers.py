@@ -1,6 +1,5 @@
 from __future__ import division
 
-
 class Rational:
     def __init__(self, numer, denom):
         self.numer = None
