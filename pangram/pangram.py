@@ -16,4 +16,3 @@ def is_pangram(sentence):
     else:
         print("False " + str(len(letters_in_sentence)) + "/" + str(len(alphabet)))
     return len(letters_in_sentence) == len(alphabet)
-
