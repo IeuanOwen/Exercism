@@ -32,7 +32,7 @@ def recite(start, take=1):
             song.append(first_verse_line("No more", plural))
             song.append(last_line)
 
-        if start != 0 and i != take-1:
+        if start != -1 and i != take-1:
             song.append("")
 
     return song

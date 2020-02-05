@@ -1,5 +1,1 @@
-{
-  "beer_song_test.py::BeerSongTest": true,
-  "beer_song_test.py::BeerSongTest::test_all_verses": true,
-  "beer_song_test.py::BeerSongTest::test_last_three_verses": true
-}
+{}
