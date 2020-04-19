@@ -4,13 +4,20 @@ class Matrix:
 
 
     def row(self, index):
-    	if index < 1:
-    		print("Index out of Range")
-    	return self.matrix[index-1]
+        if index < 0:
+            raise IndexError("Index out of range")
+        try:
+    	    return self.matrix[index-1]
+        except:
+            raise IndexError("Index out of range")
 
 
     def column(self, index):
-    	if index < 1:
-    		print("Index out of Range")
-    	else:
-    		return [i[index-1]for i in self.matrix]
+        if index < 0:
+            raise IndexError("Index out of range")
+        try:
+            print([i[index-1]for i in self.matrix])
+            return [i[index-1]for i in self.matrix]
+        except:
+            print(2)
+            raise IndexError("Index out of range")
