@@ -1,0 +1,21 @@
+[
+  "dnd_character_test.py::DnDCharacterTest::test_each_ability_is_only_calculated_once",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_10_is_0",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_11_is_0",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_12_is_1",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_13_is_1",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_14_is_2",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_15_is_2",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_16_is_3",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_17_is_3",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_18_is_4",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_3_is_n4",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_4_is_n3",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_5_is_n3",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_6_is_n2",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_7_is_n2",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_8_is_n1",
+  "dnd_character_test.py::DnDCharacterTest::test_modifier_for_score_9_is_n1",
+  "dnd_character_test.py::DnDCharacterTest::test_random_ability_is_within_range",
+  "dnd_character_test.py::DnDCharacterTest::test_random_character_is_valid"
+]
