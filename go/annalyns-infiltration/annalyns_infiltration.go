@@ -11,7 +11,7 @@ func CanFastAttack(knightIsAwake bool) bool {
 
 // CanSpy can be executed if at least one of the characters is awake.
 func CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake bool) bool {
-	if knightIsAwake == true || archerIsAwake == true {
+	if knightIsAwake == true || archerIsAwake == true || prisonerIsAwake == true {
 		return true
 	} else {
 		return false
